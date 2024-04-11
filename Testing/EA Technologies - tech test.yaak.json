@@ -1,0 +1,104 @@
+{
+  "yaakVersion": "2024.3.3",
+  "yaakSchema": 2,
+  "timestamp": "2024-03-08T18:00:43.143881700",
+  "resources": {
+    "workspaces": [
+      {
+        "id": "wk_wWlINc4cMG",
+        "model": "workspace",
+        "createdAt": "2024-03-08T08:47:16",
+        "updatedAt": "2024-03-08T08:47:16",
+        "name": "Yaak",
+        "description": "",
+        "variables": [],
+        "settingValidateCertificates": false,
+        "settingFollowRedirects": false,
+        "settingRequestTimeout": 0
+      }
+    ],
+    "environments": [],
+    "folders": [],
+    "httpRequests": [
+      {
+        "createdAt": "2024-03-08T08:47:22",
+        "updatedAt": "2024-03-08T17:59:30",
+        "id": "rq_LNlTxA3A7G",
+        "workspaceId": "wk_wWlINc4cMG",
+        "folderId": null,
+        "model": "http_request",
+        "sortPriority": -1709887642792.0,
+        "name": "",
+        "url": "https://localhost:7158/NodeNetwork/GetCustomers",
+        "urlParameters": [],
+        "method": "POST",
+        "body": {
+          "text": "{\n  \"SelectedNode\": 50,\n  \"network\": {\n    \"branches\": [\n      {\"startNode\": 10,\"endNode\": 20},\n      {\"startNode\": 20,\"endNode\": 30},\n      {\"startNode\": 30,\"endNode\": 50},\n      {\"startNode\": 50,\"endNode\": 60},\n      {\"startNode\": 50,\"endNode\": 90},\n      {\"startNode\": 60,\"endNode\": 40},\n      {\"startNode\": 70,\"endNode\": 80}\n    ],\n    \"customers\": [\n      {\"node\": 30,\"numberOfCustomers\": 8},\n      {\"node\": 40,\"numberOfCustomers\": 3},\n      {\"node\": 60,\"numberOfCustomers\": 2},\n      {\"node\": 70,\"numberOfCustomers\": 1},\n      {\"node\": 80,\"numberOfCustomers\": 3},\n      {\"node\": 90,\"numberOfCustomers\": 5}\n    ]\n  }\n}"
+        },
+        "bodyType": "application/json",
+        "authentication": {},
+        "authenticationType": null,
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      },
+      {
+        "createdAt": "2024-03-08T14:51:28",
+        "updatedAt": "2024-03-08T17:59:06",
+        "id": "rq_185qNBqTKo",
+        "workspaceId": "wk_wWlINc4cMG",
+        "folderId": null,
+        "model": "http_request",
+        "sortPriority": -1709887642792.0,
+        "name": "",
+        "url": "https://localhost:7158/NodeNetwork/GetCustomers",
+        "urlParameters": [],
+        "method": "POST",
+        "body": {
+          "text": "{\n  \"SelectedNode\": 50,\n  \"network\": {\n    \"branches\": [\n      {\"startNode\": 10,\"endNode\": 20},\n      {\"startNode\": 60,\"endNode\": 40},\n      {\"startNode\": 70,\"endNode\": 80},\n      {\"startNode\": 50,\"endNode\": 60},\n      {\"startNode\": 20,\"endNode\": 30},\n      {\"startNode\": 50,\"endNode\": 90},\n      {\"startNode\": 30,\"endNode\": 50}\n    ],\n    \"customers\": [\n      {\"node\": 30,\"numberOfCustomers\": 8},\n      {\"node\": 40,\"numberOfCustomers\": 3},\n      {\"node\": 60,\"numberOfCustomers\": 2},\n      {\"node\": 70,\"numberOfCustomers\": 1},\n      {\"node\": 80,\"numberOfCustomers\": 3},\n      {\"node\": 90,\"numberOfCustomers\": 5}\n    ]\n  }\n}"
+        },
+        "bodyType": "application/json",
+        "authentication": {},
+        "authenticationType": null,
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      },
+      {
+        "createdAt": "2024-03-08T16:13:38",
+        "updatedAt": "2024-03-08T17:58:28",
+        "id": "rq_pZjvTQenRl",
+        "workspaceId": "wk_wWlINc4cMG",
+        "folderId": null,
+        "model": "http_request",
+        "sortPriority": -1709887642792.0,
+        "name": "",
+        "url": "https://localhost:7158/NodeNetwork/GetCustomers",
+        "urlParameters": [],
+        "method": "POST",
+        "body": {
+          "text": "{\n  \"SelectedNode\": 110,\n  \"network\": {\n    \"branches\": [\n      {\"startNode\": 110,\"endNode\": 120},\n      {\"startNode\": 10,\"endNode\": 20},\n      {\"startNode\": 70,\"endNode\": 80},\n      {\"startNode\": 230,\"endNode\": 210},\n      {\"startNode\": 50,\"endNode\": 60},\n      {\"startNode\": 20,\"endNode\": 30},\n      {\"startNode\": 120,\"endNode\": 150},\n      {\"startNode\": 30,\"endNode\": 50},\n      {\"startNode\": 30,\"endNode\": 110},\n      {\"startNode\": 110,\"endNode\": 100},\n      {\"startNode\": 120,\"endNode\": 160},\n      {\"startNode\": 160,\"endNode\": 130},\n      {\"startNode\": 50,\"endNode\": 90},\n      {\"startNode\": 60,\"endNode\": 40},\n      {\"startNode\": 200,\"endNode\": 220},\n      {\"startNode\": 200,\"endNode\": 230}\n    ],\n    \"customers\": [\n      {\"node\": 30,\"numberOfCustomers\": 8},\n      {\"node\": 40,\"numberOfCustomers\": 3},\n      {\"node\": 60,\"numberOfCustomers\": 2},\n      {\"node\": 70,\"numberOfCustomers\": 1},\n      {\"node\": 80,\"numberOfCustomers\": 3},\n      {\"node\": 90,\"numberOfCustomers\": 5},\n\n      {\"node\": 100,\"numberOfCustomers\": 4},\n      {\"node\": 130,\"numberOfCustomers\": 2},\n      {\"node\": 120,\"numberOfCustomers\": 6},\n\n      {\"node\": 220,\"numberOfCustomers\": 3},\n      {\"node\": 230,\"numberOfCustomers\": 1},\n      {\"node\": 210,\"numberOfCustomers\": 4}\n    ]\n  }\n}"
+        },
+        "bodyType": "application/json",
+        "authentication": {},
+        "authenticationType": null,
+        "headers": [
+          {
+            "enabled": true,
+            "name": "Content-Type",
+            "value": "application/json"
+          }
+        ]
+      }
+    ],
+    "grpcRequests": []
+  }
+}

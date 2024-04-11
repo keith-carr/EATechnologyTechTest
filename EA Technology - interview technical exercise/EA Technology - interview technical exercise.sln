@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EA Technology - interview technical exercise", "EA Technology - interview technical exercise\EA Technology - interview technical exercise.csproj", "{D54C36FD-6FB0-432B-8F3A-5DB1A5597DA4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D54C36FD-6FB0-432B-8F3A-5DB1A5597DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D54C36FD-6FB0-432B-8F3A-5DB1A5597DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D54C36FD-6FB0-432B-8F3A-5DB1A5597DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D54C36FD-6FB0-432B-8F3A-5DB1A5597DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50319093-E5C0-4A5D-BF09-4C53EE5FE98E}
+	EndGlobalSection
+EndGlobal

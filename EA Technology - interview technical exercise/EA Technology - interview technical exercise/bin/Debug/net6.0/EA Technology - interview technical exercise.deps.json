@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "EA Technology - interview technical exercise/1.0.0": {
+        "runtime": {
+          "EA Technology - interview technical exercise.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EA Technology - interview technical exercise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
